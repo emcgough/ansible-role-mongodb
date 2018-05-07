@@ -17,7 +17,7 @@ MongoDB support matrix:
 | Debian 8.x | :no_entry: | :white_check_mark:| :white_check_mark:| :white_check_mark:|
 | Debian 9.x | :no_entry: | :white_check_mark:| :x:| :x:|
 | RHEL 6.x | :no_entry: | :white_check_mark: | :white_check_mark: | :white_check_mark:|
-| RHEL 7.x | :3.0.8: | :white_check_mark: | :white_check_mark: | :white_check_mark:|
+| RHEL 7.x | 3.0.8 | :white_check_mark: | :white_check_mark: | :white_check_mark:|
 
 - :white_check_mark: - fully tested, should works fine
 - :interrobang: - maybe works, not tested
