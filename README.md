@@ -17,7 +17,7 @@ MongoDB support matrix:
 | Debian 8.x | :no_entry: | :white_check_mark:| :white_check_mark:| :white_check_mark:|
 | Debian 9.x | :no_entry: | :white_check_mark:| :x:| :x:|
 | RHEL 6.x | :no_entry: | :white_check_mark: | :white_check_mark: | :white_check_mark:|
-| RHEL 7.x | :no_entry: | :white_check_mark: | :white_check_mark: | :white_check_mark:|
+| RHEL 7.x | :3.0.8: | :white_check_mark: | :white_check_mark: | :white_check_mark:|
 
 - :white_check_mark: - fully tested, should works fine
 - :interrobang: - maybe works, not tested
@@ -33,9 +33,9 @@ MongoDB support matrix:
 mongodb_package: mongodb-org
 
 # You can control installed version via this param.
-# Should be '3.2', '3.4', '3.6'. This role doesn't support MongoDB < 3.2.
+# Should be '3.0.8' '3.2', '3.4', '3.6'.  3.0.8 works tested redhat 7 only
 # I will recommend you to use latest version of MongoDB.
-mongodb_version: "3.6"
+mongodb_version: "3.0.8"
 
 mongodb_pymongo_from_pip: true                   # Install latest PyMongo via PIP or package manager
 mongodb_user_update_password: "on_create"        # MongoDB user password update default policy
